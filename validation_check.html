@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Validation Check</title>
+	</head>
+	<body>
+		<dl>
+			<dt>http://www.seagulls.co.uk</dt>
+				<dd>A football website for the team Brighton and Hove Albion. Contains images, text, and videos. Moving image slideshows.</dd>
+				<dd>Validator.nu = Failed, 10 errors and 2 warnings. For using &amp; and using an unquoted attribute value.</dd>
+				<dd>HTML Lint = Passed</dd>
+			<dt>http://www.wwe.com</dt>
+				<dd>A site for the World Wrestling Entertainment. Contains images, text, and video. Moving image slideshows.</dd>
+				<dd>Validator.nu = Failed, 155 errors. Mostly for using attributes not allowed and using the &amp;.</dd>
+				<dd>HTML Lint = Passed</dd>
+			<dt>http://www.northstandchat.com/forum.php</dt>
+				<dd>A forum for supporters of a football team. Contains forum stuff to allow posting topics and replying and posting images and video.</dd>
+				<dd>Validator.nu = Failed, 76 errors and 9 warnings. Attributes that are now allowed in the meta. Using &amp;, using unknown values, and duplicating attributes.</dd>
+				<dd>HTML Lint = Failed, HTML not valid (Line 262: Illegal closing tag &lt;/p&gt; for &lt;center&gt;)</dd>
+			<dt>http://www.ign.com</dt>
+				<dd>Video game website. Has images, text, videos. Moving image slideshows.</dd>
+				<dd>Validator.nu = Failed, 233 errors and 3 warnings. Using &amp;, attribute borders not allowed on images, multiple different elements not being allowed.</dd>
+				<dd>HTML Lint = Failed, 16 mistakes. Missing whitespace, not closing empty tags and attributes must be lowercase.</dd>
+		</dl>
+	</body>
+</html>			
