@@ -10,7 +10,7 @@
 		
 		<h2></h2>
 <form id=signup>
-	
+	<fieldset>
 		<h2>Your details</h2>
 		<ol>
 			<li>
@@ -33,7 +33,9 @@
 				<label for=female>Female</label>
 			</li>
 		</ol>
+	</fieldset>
 	
+	<fieldset>
 		<h2>Address</h2>
 		<ol>
 			<li>
@@ -45,26 +47,27 @@
 				<input id=postcode name=postcode type=text required>
 			</li>
 			<li>
-				<p>
-<select name= “Country”>
-<option>Canada</option>
-<option>UK</option>
-<option>USA</option>
-</select>
-</p>
+				<p> <label for=country>Country</label>
+					<select id=country name= “Country”>
+						<option>Canada</option>
+						<option>UK</option>
+						<option>USA</option>
+						</select>
+				</p>
 			</li>
 		</ol>
+	</fieldset>
 	
-		
+	<fieldset>	
 		<h2>Email Subscription</h2>
 			<ul>
 				<li>
-					 <label>Get Email</label>
-             <input type="checkbox" value="sign-up"/>
+					 <label for="subscrip">Get Email</label>
+             <input id="subscrip" type="checkbox" value="sign-up"/>
 				</li>
 				
 			</ul>
-
+	</fieldset>
 		<button type=submit>Submit</button>
 </form>
 		
