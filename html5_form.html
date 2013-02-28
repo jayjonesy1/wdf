@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>HTML 5 Elements</title>
+	</head>
+	<body>
+		<div id="wrapper"></div>
+		<h1 id="header">Edit Profile</h1>
+		
+		<h2></h2>
+<form id=signup>
+	
+		<h2>Your details</h2>
+		<ol>
+			<li>
+				<label for=email>Email</label>
+				<input id=email name=email type="email" placeholder="example@domain.com" required>
+			</li>
+			<li>
+				<label for=website>Website</label>
+				<input id=website type="url" name= “website” />
+			</li>
+			<li>
+				<label for=phone>Phone Number</label>
+				<input id=phone type="tel" name= “phone” autofocus="autofocus"/>
+			</li>
+			<li>
+				<label for=colour>Colour</label>
+				<input id=colour type="color" name=“color_choice” />
+			</li>
+			<li>
+				<label for=range>Range</label>
+				<input id=range type="range" name= “amount” />
+			</li>
+			<li>
+				<label for=numbers>Numbers</label>
+				<input id=numbers type="number" name= “items” />
+			</li>
+			<li>
+				<label for=date>Date</label>
+				<input id=date type="date" name= “arrival_date” />
+			</li>
+			<li>
+				<label for=time>Time</label>
+				<input id=time type="time" name= “arrival_time” />
+			</li>
+			<li>
+				<label for=gender>Mr/Mrs/Ms</label><input id=gender type="text" list="mydata" />
+					<datalist id="mydata">
+						<option label="Mr" value="Mister">
+						<option label="Mrs" value="Mistress">
+						<option label="Ms" value="Miss">
+					</datalist>
+			</li>
+			<li>
+				<progress value="25" max="100">25%</progress>
+			</li>
+		</ol>
+
+		<button type=submit>Submit</button>
+</form>
+		
+		
+		<p id="footer"><small>&copy; copyright 2013.</small></p>
+	</body>
+</html>			
