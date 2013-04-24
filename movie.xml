@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movie_collection>
+
+	<movie>
+		<year>2009</year>
+		<title>Avatar</title>
+		<genre>Science Fiction</genre>
+	</movie>
+	
+	<movie>
+		<year>2009</year>
+		<title>Sherlock Holmes</title>
+		<genre>Adventure</genre>
+	</movie>
+	
+	<movie>
+		<year>2011</year>
+		<title>Sherlock Holmes: A Game of Shadows</title>
+		<genre>Adventure</genre>
+	</movie>
+	
+</movie_collection>

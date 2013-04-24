@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+
+	<channel>
+
+		<title>Jason's Movie Reviews</title>
+		<link></link>
+		<description>Selection of movies reviewed by Jason Jones.</description>
+
+		<item>
+		<title>Rise of the Guardian Review</title>
+		<link></link>
+		<description>Review of Rise of the Guardian.</description>
+		</item>
+
+		<item>
+		<title>Dark Shadows</title>
+		<link></link>
+		<description>Review of Dark Shadows.</description>
+		</item>
+
+		<item>
+		<title>Hotel Transylvania</title>
+		<link></link>
+		<description>Review of Hotel Transylvania.</description>
+		</item>
+
+		<item>
+		<title>Abraham Lincoln Vampire Hunter</title>
+		<link></link>
+		<description>Review of Abraham Lincoln Vampire Hunter.</description>
+		</item>
+	</channel>
+
+</rss>
+
+

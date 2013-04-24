@@ -5,63 +5,79 @@
 		<title>HTML 5 Elements</title>
 	</head>
 	<body>
-		<div id="wrapper"></div>
+		<div id="wrapper">
 		<h1 id="header">Edit Profile</h1>
 		
 		<h2></h2>
 <form id=signup>
 	
 		<h2>Your details</h2>
-		<ol>
-			<li>
+		
 				<label for=email>Email</label>
-				<input id=email name=email type="email" placeholder="example@domain.com" required>
-			</li>
-			<li>
+			<div>
+				<input id=email name=email type="email" placeholder="example@domain.com" autofocus="autofocus" required>
+			</div>
+			
 				<label for=website>Website</label>
+			<div>
 				<input id=website type="url" name= “website” />
-			</li>
-			<li>
+			</div>
+			
 				<label for=phone>Phone Number</label>
-				<input id=phone type="tel" name= “phone” autofocus="autofocus"/>
-			</li>
-			<li>
+			<div>
+				<input id=phone type="tel" name= “phone” />
+			</div>
+			
+				<label for=search>Search</label>
+			<div>
+				<input id=search type="search" name= “search”/>
+			</div>
+			
 				<label for=colour>Colour</label>
+			<div>
 				<input id=colour type="color" name=“color_choice” />
-			</li>
-			<li>
+			</div>
+			
 				<label for=range>Range</label>
+			<div>
 				<input id=range type="range" name= “amount” />
-			</li>
-			<li>
+			</div>
+			
 				<label for=numbers>Numbers</label>
+			<div>
 				<input id=numbers type="number" name= “items” />
-			</li>
-			<li>
+			</div>
+			
 				<label for=date>Date</label>
+			<div>
 				<input id=date type="date" name= “arrival_date” />
-			</li>
-			<li>
+			</div>
+			
 				<label for=time>Time</label>
+			<div>
 				<input id=time type="time" name= “arrival_time” />
-			</li>
-			<li>
-				<label for=gender>Mr/Mrs/Ms</label><input id=gender type="text" list="mydata" />
+			</div>
+			
+				<label for=gender>Mr/Mrs/Ms</label>
+			<div>	
+				<input id=gender type="text" list="mydata" />
 					<datalist id="mydata">
 						<option label="Mr" value="Mister">
 						<option label="Mrs" value="Mistress">
 						<option label="Ms" value="Miss">
 					</datalist>
-			</li>
-			<li>
+			</div>
+			
+				<label>Progress</label>
+			<div>
 				<progress value="25" max="100">25%</progress>
-			</li>
-		</ol>
+			</div>
 
-		<button type=submit>Submit</button>
+		<input type="submit">
 </form>
 		
 		
 		<p id="footer"><small>&copy; copyright 2013.</small></p>
+		</div>
 	</body>
 </html>			
