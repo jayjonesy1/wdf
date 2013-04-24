@@ -2,76 +2,71 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Form</title>
+		<title>Sign-Up</title>
 	</head>
 	<body>
-		<div id="wrapper"></div>
+		<div id="wrapper">
 		<h1 id="header">Sign-Up</h1>
 		
-		<h2></h2>
-<form id=signup>
-	<fieldset>
+	<form id=signup method="post" action="mailto:jayjonesy91@gmail.com">
+	
 		<h2>Your details</h2>
-		<ol>
-			<li>
+			
 				<label for=username>Username</label>
+			<div>	
 				<input id=username name=name type=text placeholder="First and last name" required autofocus>
-			</li>
-			<li>
+			</div>
+				
 				<label for=email>Email</label>
+			<div>
 				<input id=email name=email type=email placeholder="example@domain.com" required>
-			</li>
-			<li>
+			</div>
+			
 				<label for=password>Password</label>
+			<div>	
 				<input id=password name=password type=password required>
-			</li>
-			<li>
+			</div>
+			<div>
 				<input id=male name=gender type=radio>
 				<label for=male>Male</label>
 			
 				<input id=female name=gender type=radio>
 				<label for=female>Female</label>
-			</li>
-		</ol>
-	</fieldset>
-	
-	<fieldset>
+			</div>
+			
 		<h2>Address</h2>
-		<ol>
-			<li>
 				<label for=address>Address</label>
+			<div>	
 				<textarea id=address name=address rows=5 required></textarea>
-			</li>
-			<li>
+			</div>
+			
 				<label for=postcode>Post code</label>
+			<div>
 				<input id=postcode name=postcode type=text required>
-			</li>
-			<li>
-				<p> <label for=country>Country</label>
-					<select id=country name= “Country”>
-						<option>Canada</option>
-						<option>UK</option>
-						<option>USA</option>
-						</select>
-				</p>
-			</li>
-		</ol>
-	</fieldset>
+			</div>
+			<div>
+				<p>
+				<select name= “Country”>
+					<option>Canada</option>
+					<option>UK</option>
+					<option>USA</option>
+				</select>
+			</p>
+			</div>
 	
-	<fieldset>	
+		
 		<h2>Email Subscription</h2>
-			<ul>
-				<li>
-					 <label for="subscrip">Get Email</label>
-             <input id="subscrip" type="checkbox" value="sign-up"/>
-				</li>
 				
-			</ul>
-	</fieldset>
-		<button type=submit>Submit</button>
-</form>
+			<div>
+        		<input type="checkbox" value="sign-up"/><label>Get Email</label>
+			</div>
+				
+
+		<input type="submit">
+	</form>
 		
 		
 		<p id="footer"><small>&copy; copyright 2013.</small></p>
+		</div>
 	</body>
 </html>			
