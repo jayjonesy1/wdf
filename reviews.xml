@@ -4,30 +4,30 @@
 	<channel>
 
 		<title>Jason's Movie Reviews</title>
-		<link></link>
+		<link>http://jayjonesy1.github.com/wdf/rss_link.html</link>
 		<description>Selection of movies reviewed by Jason Jones.</description>
 
 		<item>
 		<title>Rise of the Guardian Review</title>
-		<link></link>
+		<link>http://jayjonesy1.github.com/wdf/rss_link.html</link>
 		<description>Review of Rise of the Guardian.</description>
 		</item>
 
 		<item>
 		<title>Dark Shadows</title>
-		<link></link>
+		<link>http://jayjonesy1.github.com/wdf/rss_link.html</link>
 		<description>Review of Dark Shadows.</description>
 		</item>
 
 		<item>
 		<title>Hotel Transylvania</title>
-		<link></link>
+		<link>http://jayjonesy1.github.com/wdf/rss_link.html</link>
 		<description>Review of Hotel Transylvania.</description>
 		</item>
 
 		<item>
 		<title>Abraham Lincoln Vampire Hunter</title>
-		<link></link>
+		<link>http://jayjonesy1.github.com/wdf/rss_link.html</link>
 		<description>Review of Abraham Lincoln Vampire Hunter.</description>
 		</item>
 	</channel>
