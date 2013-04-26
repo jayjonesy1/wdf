@@ -9,8 +9,8 @@
 		<h1 id="header">Sign-Up</h1>
 		
 	<form id=signup method="post" action="mailto:jayjonesy91@gmail.com">
-	
-		<h2>Your details</h2>
+	<fieldset>
+		<legend><h2>Your details</h2></legend>
 			
 				<label for=username>Username</label>
 			<div>	
@@ -33,8 +33,10 @@
 				<input id=female name=gender type=radio>
 				<label for=female>Female</label>
 			</div>
-			
-		<h2>Address</h2>
+	</fieldset>
+		
+	<fieldset>
+		<legend><h2>Address</h2></legend>
 				<label for=address>Address</label>
 			<div>	
 				<textarea id=address name=address rows=5 required></textarea>
@@ -44,25 +46,26 @@
 			<div>
 				<input id=postcode name=postcode type=text required>
 			</div>
+			
+			<label for=country>Country</label>
 			<div>
-				<p>
-				<select name= “Country”>
+				<select id=country name= “Country”>
 					<option>Canada</option>
 					<option>UK</option>
 					<option>USA</option>
 				</select>
-			</p>
 			</div>
+	</fieldset>
 	
-		
-		<h2>Email Subscription</h2>
+	<fieldset>	
+		<legend><h2>Email Subscription</h2></legend>
 				
 			<div>
-        		<input type="checkbox" value="sign-up"/><label>Get Email</label>
+        		<input id=sub type="checkbox" value="sign-up"/><label for=sub>Get Email</label>
 			</div>
-				
-
-		<input type="submit">
+	</fieldset>
+	
+		<input id=submit type="submit">
 	</form>
 		
 		
